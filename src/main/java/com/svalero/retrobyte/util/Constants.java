@@ -19,7 +19,7 @@ public class Constants {
     //                         5. cambiar las rutas en index.jsp y view-product.jsp--->  en index por ejemplo..---> <img src="/imagenes/<%=products.getImage()%>" style="max-width: 480px;max-height: 360px;"/>
     //                         6. cambiar web.xml con esta ruta--->   <param-value>/opt/retrobyte/pictures</param-value>
     //                         7. cabiar el Dockerfile y añadir una linea--->  RUN mkdir -p /opt/retrobyte/pictures
-    //                         8. Una vez hecho esto volver hacer los puntos 1,2,3
+    //                         8. Una vez hecho esto volver hacer los puntos 1,2,3,4
     //                         9. Entrar en el contenedor y Editar el archivo server.xml de Tomcat: Normalmente se encuentra en /usr/local/tomcat/conf/server.xml
     //                        10.<Host name="localhost"  appBase="webapps" unpackWARs="true" autoDeploy="true">
     //
